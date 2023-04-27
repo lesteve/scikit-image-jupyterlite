@@ -687,7 +687,7 @@ Image and Vision Computing, 1992, 10, 557-564.
 
     <span class="n">image</span> <span class="o">*=</span> <span class="n">rng</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="n">image</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 
-    <span class="n">image</span> <span class="o">*=</span> <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.zoom.html#scipy.ndimage.zoom" title="scipy.ndimage.zoom" class="sphx-glr-backref-module-scipy-ndimage sphx-glr-backref-type-py-function"><span class="n">ndi</span><span class="o">.</span><span class="n">zoom</span></a><span class="p">(</span>
+    <span class="n">image</span> <span class="o">*=</span> <a href="https://docs.scipy.org/doc/scipy/generated/scipy.ndimage.zoom.html#scipy.ndimage.zoom" title="scipy.ndimage.zoom" class="sphx-glr-backref-module-scipy-ndimage sphx-glr-backref-type-py-function"><span class="n">ndi</span><span class="o">.</span><span class="n">zoom</span></a><span class="p">(</span>
         <span class="n">rng</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span>
             <span class="n">loc</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span>
             <span class="n">scale</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span>
@@ -696,7 +696,7 @@ Image and Vision Computing, 1992, 10, 557-564.
         <span class="n">image_size</span> <span class="o">/</span> <span class="n">cloud_noise_size</span>
     <span class="p">)</span>
 
-    <span class="k">return</span> <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.gaussian_filter.html#scipy.ndimage.gaussian_filter" title="scipy.ndimage.gaussian_filter" class="sphx-glr-backref-module-scipy-ndimage sphx-glr-backref-type-py-function"><span class="n">ndi</span><span class="o">.</span><span class="n">gaussian_filter</span></a><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">2.0</span><span class="p">)</span>
+    <span class="k">return</span> <a href="https://docs.scipy.org/doc/scipy/generated/scipy.ndimage.gaussian_filter.html#scipy.ndimage.gaussian_filter" title="scipy.ndimage.gaussian_filter" class="sphx-glr-backref-module-scipy-ndimage sphx-glr-backref-type-py-function"><span class="n">ndi</span><span class="o">.</span><span class="n">gaussian_filter</span></a><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">2.0</span><span class="p">)</span>
 
 <span class="c1"># First create the test image and its shape index</span>
 
@@ -718,7 +718,7 @@ Image and Vision Computing, 1992, 10, 557-564.
 <span class="c1"># In order to reduce the impact of noise, we apply a Gaussian filter to it,</span>
 <span class="c1"># and show the results once in</span>
 
-<span class="n">s_smooth</span> <span class="o">=</span> <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.gaussian_filter.html#scipy.ndimage.gaussian_filter" title="scipy.ndimage.gaussian_filter" class="sphx-glr-backref-module-scipy-ndimage sphx-glr-backref-type-py-function"><span class="n">ndi</span><span class="o">.</span><span class="n">gaussian_filter</span></a><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
+<span class="n">s_smooth</span> <span class="o">=</span> <a href="https://docs.scipy.org/doc/scipy/generated/scipy.ndimage.gaussian_filter.html#scipy.ndimage.gaussian_filter" title="scipy.ndimage.gaussian_filter" class="sphx-glr-backref-module-scipy-ndimage sphx-glr-backref-type-py-function"><span class="n">ndi</span><span class="o">.</span><span class="n">gaussian_filter</span></a><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
 
 <span class="n">point_y_s</span><span class="p">,</span> <span class="n">point_x_s</span> <span class="o">=</span> <a href="https://numpy.org/doc/stable/reference/generated/numpy.where.html#numpy.where" title="numpy.where" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-function"><span class="n">np</span><span class="o">.</span><span class="n">where</span></a><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">s_smooth</span> <span class="o">-</span> <span class="n">target</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">delta</span><span class="p">)</span>
 <span class="n">point_z_s</span> <span class="o">=</span> <span class="n">image</span><span class="p">[</span><span class="n">point_y_s</span><span class="p">,</span> <span class="n">point_x_s</span><span class="p">]</span>

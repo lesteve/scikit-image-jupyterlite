@@ -1,0 +1,61 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2023-04-27T08:18:44.612322Z",
+      "format": null,
+      "last_modified": "2023-04-27T08:18:43.112321Z",
+      "mimetype": null,
+      "name": "plot_general.ipynb",
+      "path": "auto_examples/data/plot_general.ipynb",
+      "size": 3575,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2023-04-27T08:18:44.612322Z",
+      "format": null,
+      "last_modified": "2023-04-27T08:18:43.112321Z",
+      "mimetype": null,
+      "name": "plot_3d.ipynb",
+      "path": "auto_examples/data/plot_3d.ipynb",
+      "size": 2872,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2023-04-27T08:18:44.612322Z",
+      "format": null,
+      "last_modified": "2023-04-27T08:18:43.112321Z",
+      "mimetype": null,
+      "name": "plot_scientific.ipynb",
+      "path": "auto_examples/data/plot_scientific.ipynb",
+      "size": 3416,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2023-04-27T08:18:44.612322Z",
+      "format": null,
+      "last_modified": "2023-04-27T08:18:43.112321Z",
+      "mimetype": null,
+      "name": "plot_specific.ipynb",
+      "path": "auto_examples/data/plot_specific.ipynb",
+      "size": 4763,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2023-04-27T08:18:44.612322Z",
+  "format": "json",
+  "last_modified": "2023-04-27T08:18:44.612322Z",
+  "mimetype": null,
+  "name": "data",
+  "path": "auto_examples/data",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

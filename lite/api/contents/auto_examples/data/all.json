@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2023-04-29T09:17:17.002180Z",
+      "created": "2023-04-29T09:22:48.474396Z",
       "format": null,
-      "last_modified": "2023-04-29T09:17:15.582179Z",
+      "last_modified": "2023-04-29T09:22:47.158396Z",
       "mimetype": null,
       "name": "plot_general.ipynb",
       "path": "auto_examples/data/plot_general.ipynb",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2023-04-29T09:17:17.002180Z",
+      "created": "2023-04-29T09:22:48.474396Z",
       "format": null,
-      "last_modified": "2023-04-29T09:17:15.582179Z",
+      "last_modified": "2023-04-29T09:22:47.158396Z",
       "mimetype": null,
       "name": "plot_3d.ipynb",
       "path": "auto_examples/data/plot_3d.ipynb",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2023-04-29T09:17:17.002180Z",
+      "created": "2023-04-29T09:22:48.474396Z",
       "format": null,
-      "last_modified": "2023-04-29T09:17:15.582179Z",
+      "last_modified": "2023-04-29T09:22:47.158396Z",
       "mimetype": null,
       "name": "plot_scientific.ipynb",
       "path": "auto_examples/data/plot_scientific.ipynb",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2023-04-29T09:17:17.002180Z",
+      "created": "2023-04-29T09:22:48.474396Z",
       "format": null,
-      "last_modified": "2023-04-29T09:17:15.582179Z",
+      "last_modified": "2023-04-29T09:22:47.158396Z",
       "mimetype": null,
       "name": "plot_specific.ipynb",
       "path": "auto_examples/data/plot_specific.ipynb",
@@ -49,9 +49,9 @@
       "writable": true
     }
   ],
-  "created": "2023-04-29T09:17:17.002180Z",
+  "created": "2023-04-29T09:22:48.474396Z",
   "format": "json",
-  "last_modified": "2023-04-29T09:17:17.002180Z",
+  "last_modified": "2023-04-29T09:22:48.474396Z",
   "mimetype": null,
   "name": "data",
   "path": "auto_examples/data",

@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2023-04-29T09:17:17.022180Z",
+      "created": "2023-04-29T09:22:48.506397Z",
       "format": null,
-      "last_modified": "2023-04-29T09:17:15.598179Z",
+      "last_modified": "2023-04-29T09:22:47.174396Z",
       "mimetype": null,
       "name": "plot_structuring_elements.ipynb",
       "path": "auto_examples/numpy_operations/plot_structuring_elements.ipynb",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2023-04-29T09:17:17.022180Z",
+      "created": "2023-04-29T09:22:48.506397Z",
       "format": null,
-      "last_modified": "2023-04-29T09:17:15.598179Z",
+      "last_modified": "2023-04-29T09:22:47.174396Z",
       "mimetype": null,
       "name": "plot_view_as_blocks.ipynb",
       "path": "auto_examples/numpy_operations/plot_view_as_blocks.ipynb",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2023-04-29T09:17:17.018180Z",
+      "created": "2023-04-29T09:22:48.502397Z",
       "format": null,
-      "last_modified": "2023-04-29T09:17:15.598179Z",
+      "last_modified": "2023-04-29T09:22:47.174396Z",
       "mimetype": null,
       "name": "plot_camera_numpy.ipynb",
       "path": "auto_examples/numpy_operations/plot_camera_numpy.ipynb",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2023-04-29T09:17:17.022180Z",
+      "created": "2023-04-29T09:22:48.506397Z",
       "format": null,
-      "last_modified": "2023-04-29T09:17:15.598179Z",
+      "last_modified": "2023-04-29T09:22:47.174396Z",
       "mimetype": null,
       "name": "plot_footprint_decompositions.ipynb",
       "path": "auto_examples/numpy_operations/plot_footprint_decompositions.ipynb",
@@ -49,9 +49,9 @@
       "writable": true
     }
   ],
-  "created": "2023-04-29T09:17:17.022180Z",
+  "created": "2023-04-29T09:22:48.506397Z",
   "format": "json",
-  "last_modified": "2023-04-29T09:17:17.022180Z",
+  "last_modified": "2023-04-29T09:22:48.506397Z",
   "mimetype": null,
   "name": "numpy_operations",
   "path": "auto_examples/numpy_operations",
